@@ -1,0 +1,1140 @@
+body,
+section,
+div,
+h1,
+h2,
+h3,
+p,
+a,
+ul,
+li,
+img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, 游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    padding: 0 10px;
+}
+
+.title-box {
+    text-align: center;
+}
+
+.title {
+    margin: 50px auto 30px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+}
+
+/* ヘッダー部分ここから */
+header {
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    width: 100%;
+    height: 65px;
+}
+
+.header-logo a,
+.header-logo button {
+    width: 60px !important;
+}
+
+.header-logo button {
+    padding: 0 !important;
+}
+
+.header-logo a {
+    margin-right: 240px;
+}
+
+.header-logo a img {
+    width: 90%;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+    font-size: 1.55rem;
+}
+
+/* トップページここから */
+main {
+    padding-top: 65px;
+}
+
+.main{
+    background-color: #ddd;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+#top {
+    background-image: url(../images/photo-1533174072545-7a4b6ad7a6c3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 45vh;
+}
+
+.cover {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 45vh;
+}
+
+.top-message {
+    margin: 0 auto;
+    padding-top: 50px;
+    color: #fff;
+    width: 90%;
+    text-align: center;
+}
+
+.top-message h1 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#top .btn {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 12px;
+    border-radius: 40px;
+
+    animation: animScale 3s infinite ease-out;
+    transform-orïigin: 50% 50%;
+    animation-play-state: running;
+}
+
+@keyframes animScale {
+    0% {
+        transform: scale(0.8, 0.8);
+    }
+
+    5% {
+        transform: scale(1.2, 1.2);
+    }
+
+    10% {
+        transform: scale(1, 1);
+    }
+
+    15% {
+        transform: scale(1.1, 1.1);
+    }
+
+    20% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* アバウト部分ここから */
+#about {
+    margin-top: 20px;
+}
+
+#about h1 {
+    font-weight: bold;
+    font-size: 3.0rem;
+    line-height: 150%;
+}
+
+.about-text {
+    margin-top: 10px;
+}
+
+.about-text p {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+
+/* サービス部分ここから */
+.survice1,
+.survice2 {
+    position: relative;
+    margin-top: 50px;
+}
+
+.survice1 {
+    margin-bottom: 100px;
+}
+
+.survice-cover {
+    background-color: rgb(90, 241, 241, 0.6);
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+.survice-content {
+    text-align: center;
+}
+
+.survice-content img {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: 0px auto 10px;
+}
+
+.survice-info {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.survice-info h2 {
+    font-size: 1.1rem;
+    border: 1px solid #000;
+    padding: 7px 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.survice-info p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.survice-content a {
+    padding: 7px 50px;
+}
+
+.survice2 {
+    margin-top: 30px;
+}
+
+/* クリエイター部分ここから */
+.creator-list {
+    width: 100%;
+    padding: 0;
+    margin: 70px 0 0 0;
+}
+
+.creator {
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.creator1,
+.creator2 {
+    margin-bottom: 90px;
+}
+
+.creator-icon {
+    width: 50%;
+    border: 2px solid #000;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -70px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.creator-info {
+    background-color: rgba(248, 153, 1, 0.5);
+    padding: 40px 10px 10px;
+    box-sizing: border-box;
+}
+
+.creator-info p {
+    padding: 0 !important;
+}
+
+.creator-name {
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.creator-name {
+    align-items: center;
+    padding: 5px 15px;
+    margin: 0 auto 10px;
+    width: 100%;
+}
+
+.creator-name p {
+    font-size: 1rem;
+}
+
+.creator-name img {
+    width: 300%;
+}
+
+.creator-text {
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.creator-btn {
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.creator-btn a {
+    padding: 7px 50px;
+}
+
+/* ニュース部分ここから */
+.news-list {
+    width: 100%;
+    box-sizing: inherit;
+}
+
+.news-list li {
+    box-sizing: inherit;
+}
+
+.news-list li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.news-list li a:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.news-content1,
+.news-content2 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.news-title {
+    word-wrap: break-word;
+    font-size: 1.2rem;
+}
+
+/* コンタクト部分ここから */
+.contact {
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 100%;
+    height: 200px;
+}
+
+.contact-cover {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact-box {
+    height: 200px;
+    transition: 0.5s;
+}
+
+.contact a {
+    width: 100%;
+    display: block;
+}
+
+.contact img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: 0.5s;
+    display: block;
+}
+
+.contact-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    color: #000;
+}
+
+.contact-box:hover {
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+.contact h2,
+.contact h2 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+/* フッター部分ここから */
+footer {
+    background-color: #ccc;
+}
+
+.footer-logo {
+    width: 40px;
+    margin: 0 auto;
+    padding: 30px 0;
+
+}
+
+.footer-logo a {
+    width: 100%;
+}
+
+.footer-logo a img {
+    width: 100%;
+}
+
+.footer-logo p {
+    color: #333;
+}
+
+.footer-info p {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+
+.copylight {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-size: 0.6rem;
+}
+
+/* タブレット横、PCデザインここから */
+@media screen and (min-width: 1025px) {
+    .container {
+        margin: 0 auto;
+        padding: 0 30px;
+        max-width: 1366px;
+    }
+
+    /* ヘッダー部分ここから */
+    #menu {
+        padding-left: 250px;
+    }
+
+    #menu li {
+        margin-right: 40px;
+    }
+
+    /* トップページ部分ここから */
+    #top,
+    #top .cover {
+        height: 60vh;
+    }
+
+    .top-message {
+        padding-bottom: 200px !important;
+        padding-left: 240px;
+        padding-right: 240px;
+    }
+
+    .top-message h1 {
+        font-size: 2.6rem;
+    }
+
+    .top-message p {
+        font-size: 1.4rem;
+    }
+
+    #top .btn {
+        font-size: 1.4rem;
+    }
+
+    /* ABOUT部分ここから */
+    .about-content{
+        padding: 0 50px;
+    }
+    #about h1 {
+        font-weight: bold;
+        font-size: 3.4rem;
+        line-height: 150%;
+    }
+
+    .about-text p {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        line-height: 2.3rem;
+    }
+
+    /* サービス部分ここから */
+    .survice-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+
+    .survice1 {
+        width: 600px;
+        margin-right: 25px;
+        margin-bottom: 0;
+    }
+
+    .survice2 {
+        width: 600px;
+        margin-top: 50px;
+        margin-right: 25px;
+    }
+
+    .survice2 a {
+        margin-top: 20px;
+    }
+
+    .survice-cover {
+        height: 100%;
+    }
+
+    .survice-content img {
+        top: -43%;
+    }
+
+    /* クリエイター部分ここから */
+    .creator {
+        height: 45vh;
+    }
+
+    .creator-list {
+        padding: 0 30px;
+        margin-top: 120px;
+    }
+
+    .creator-info {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .creator-icon {
+        width: 35%;
+        top: -120px;
+    }
+
+    .creator-name {
+        margin-top: 100px;
+        width: 80%;
+    }
+
+    .creator-name p {
+        font-size: 1.6rem;
+    }
+
+    .creator-name img {
+        width: 50px;
+    }
+
+    .creator-text {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+
+    .creator1,
+    .creator2 {
+        margin-bottom: 170px;
+    }
+
+    .creator3,
+    .creator4 {
+        margin-bottom: 50px;
+    }
+
+    /* ニュース部分ここから */
+    #news .container {
+        padding: 0 140px;
+        box-sizing: border-box;
+    }
+
+    .news-picture {
+        text-align: center;
+    }
+
+    .news-picture img {
+        width: 70% !important;
+        margin: 0 auto;
+    }
+
+    .news-title {
+        font-size: 2.0rem;
+        margin-bottom: 30px;
+    }
+
+    .news-date {
+        font-size: 1.2rem;
+    }
+
+    /* コンタクト部分ここから */
+    .contact,
+    .contact-cover,
+    .contact-box,
+    .contact img {
+        height: 300px;
+    }
+
+    .contact-text h2 {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    .contact-text p {
+        font-size: 1.1rem;
+    }
+
+    /* フッター部分ここから */
+    .footer-logo {
+        width: 50px;
+        padding-top: 50px;
+    }
+
+    .footer-logo:hover {
+        opacity: 0.7;
+    }
+
+    .footer-logo a {
+        text-decoration: none;
+    }
+
+    .footer-info p {
+        font-size: 0.9rem;
+    }
+
+    .copylight {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+/* iPad Pro縦レスポンシブ */
+@media screen and (min-width: 796px) and (max-width: 1024px) {
+
+    /* ヘッダー部分ここから */
+    header .container {
+        margin-left: 30px;
+    }
+
+    .header-logo {
+        padding-left: 30px;
+    }
+
+    #menu {
+        padding-left: 80px;
+    }
+
+    #menu li {
+        margin-right: 40px;
+    }
+
+    /* トップページ部分ここから */
+
+    #top,
+    #top .cover {
+        height: 35vh;
+    }
+
+    .top-message {
+        padding: 100px 150px 0px 150px;
+    }
+
+    .top-message h1 {
+        font-size: 2.6rem;
+    }
+
+    .top-message p {
+        font-size: 1.2rem;
+    }
+
+    #top .btn {
+        font-size: 1.2rem;
+    }
+
+    /* ABOUT部分ここから */
+    #about .container {
+        margin: 0 60px;
+    }
+
+    .about-content {
+        margin: 0;
+    }
+
+    .about-text {
+        padding-right: 60px;
+    }
+
+    #about h1 {
+        font-weight: bold;
+        font-size: 3.4rem;
+        line-height: 150%;
+    }
+
+    .about-text p {
+        font-size: 1.2rem;
+        letter-spacing: 0.3px;
+        line-height: 2.2rem;
+    }
+
+    /* サービス部分ここから */
+    .survice-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .survice1 {
+        width: 600px;
+        margin-right: 25px;
+        margin-bottom: 0;
+    }
+
+    .survice2 {
+        width: 600px;
+        margin-top: 50px;
+        margin-right: 25px;
+    }
+
+    .survice2 a {
+        margin-top: 20px;
+    }
+
+    .survice-cover {
+        height: 100%;
+    }
+
+    .survice-content img {
+        top: -20%;
+    }
+
+    /* クリエイター部分ここから */
+    .creator-list {
+        margin-top: 120px;
+        padding: 0 30px;
+    }
+
+    .creator-info {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .creator-icon {
+        width: 50%;
+        top: -100px;
+    }
+
+    .creator-name {
+        margin-top: 120px;
+        width: 80%;
+    }
+
+    .creator-name p {
+        font-size: 1.4rem;
+    }
+
+    .creator-name img {
+        width: 50px;
+    }
+
+    .creator-text {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.4rem;
+    }
+
+    .creator1,
+    .creator2 {
+        margin-bottom: 150px;
+    }
+
+    .creator3,
+    .creator4 {
+        margin-bottom: 50px;
+    }
+
+    /* ニュース部分ここから */
+    #news .container {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    .news-picture {
+        text-align: center;
+    }
+
+    .news-picture img {
+        width: 80% !important;
+        margin: 0 auto;
+    }
+
+    .news-title {
+        font-size: 2.0rem;
+        margin-bottom: 30px;
+    }
+
+    .news-date {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* iPadレスポンシブ */
+@media screen and (min-width: 481px) and (max-width: 795px) {
+
+    /* ヘッダー部分ここから */
+    .header-logo {
+        padding-left: 10px;
+    }
+
+    #menu {
+        padding-left: 20px;
+    }
+
+    #menu li {
+        margin-right: 20px;
+    }
+
+    /* トップページ部分ここから */
+
+    #top,
+    #top .cover {
+        height: 45vh;
+    }
+
+    .top-message {
+        padding: 70px 70px 0px 70px;
+    }
+
+    .top-message h1 {
+        font-size: 2.6rem;
+    }
+
+    .top-message p {
+        font-size: 1.2rem;
+    }
+
+    #top .btn {
+        font-size: 1.2rem;
+    }
+
+    /* ABOUT部分ここから */
+    #about .container {
+        margin: 0 30px;
+    }
+
+    #about h1 {
+        font-weight: bold;
+        font-size: 3.4rem;
+        line-height: 150%;
+    }
+
+    .about-text p {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+
+    /* サービス部分ここから */
+    .survice1,
+    .survice2 {
+        margin-top: 270px;
+    }
+
+    .survice1 img,
+    .survice2 img {
+        top: -240px;
+    }
+
+    /* クリエイター部分ここから */
+    .creator-list {
+        margin-top: 120px;
+        padding: 0 30px;
+    }
+
+    .creator-info {
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .creator-icon {
+        width: 70%;
+        top: -100px;
+    }
+
+    .creator-name {
+        margin-top: 120px;
+        width: 80%;
+    }
+
+    .creator-name p {
+        font-size: 1.4rem;
+    }
+
+    .creator-name img {
+        width: 50px;
+    }
+
+    .creator-text {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.4rem;
+    }
+
+    .creator1,
+    .creator2 {
+        margin-bottom: 150px;
+    }
+
+    .creator3,
+    .creator4 {
+        margin-bottom: 20px;
+    }
+
+    /* ニュース部分ここから */
+    #news .container {
+        box-sizing: border-box;
+    }
+
+    .news-picture {
+        text-align: center;
+    }
+
+    .news-picture img {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .news-title {
+        font-size: 2.0rem;
+        margin-bottom: 30px;
+    }
+
+    .news-date {
+        font-size: 1.2rem;
+    }
+}
+
+/* スマホレスポンシブここから（iPhone Plus以外） */
+@media screen and (min-width: 376px) and (max-width: 413px) {
+    .header-logo a {
+        margin-right: 65%;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px){
+
+    /* ヘッダー部分ここから */
+    .header-logo {
+        padding: 0;
+    }
+
+    .header-logo a {
+        margin-right: 65%;
+    }
+
+    .header-logo a img {
+        width: 50px;
+    }
+
+    .header-logo button {
+        width: 50px !important;
+    }
+
+    /* トップページ部分ここから */
+    #top,
+    #top .cover {
+        height: 50vh;
+    }
+
+    .top-message {
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    .top-message h1 {
+        font-size: 1.5rem;
+        margin-bottom: 35px;
+    }
+
+    .top-message p {
+        font-size: 13px;
+    }
+
+    /* アバウト部分ここから */
+    #about h1 {
+        font-weight: bold;
+        font-size: 2.3rem;
+        line-height: 170%;
+    }
+
+    .about-text p {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+
+    /* サービス部分ここから */
+    .survice-cover {
+        padding-top: 150px;
+        margin-top: 80px;
+    }
+
+    .survice-cover img {
+        top: -20%;
+    }
+
+    /* クリエイター部分ここから */
+    .creator {
+        padding: 0 10px;
+        margin-top: 10px;
+    }
+
+    .creator-icon {
+        width: 60%;
+        top: -50%;
+    }
+
+    .creator-name {
+        padding: 2px 5px;
+    }
+
+    .youtube {
+        padding: 3px;
+    }
+
+    .creator-name img {
+        width: 100%;
+    }
+
+    .creator1,
+    .creator2 {
+        margin-bottom: 120px;
+    }
+
+    /* ニュース部分ここから */
+    .news-picture {
+        padding-right: 0;
+        padding-top: 7px;
+    }
+
+    /* コンタクト部分ここから */
+    .contact-text h2 {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* iPhone5/SEレスポンシブここから */
+@media screen and (max-width: 320px) {
+    .header-logo a {
+        margin-right: 54%;
+    }
+
+    #top,
+    #top .cover {
+        height: 50vh;
+    }
+
+    .top-message{
+        width: 100%;
+    }
+
+    .top-message h1{
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    .top-message p {
+        padding: 0 5px;
+        font-size: 12px;
+    }
+
+    /* アバウト部分ここから */
+    #about h1 {
+        font-weight: bold;
+        font-size: 2.3rem;
+        line-height: 170%;
+    }
+
+    .about-text p {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+
+    /* サービス部分ここから */
+    .survice-cover {
+        padding-top: 120px;
+        margin-top: 80px;
+    }
+
+    .survice-cover img {
+        top: -20%;
+    }
+
+    /* クリエイター部分ここから */
+
+    .creator {
+        padding: 0 10px;
+        margin-top: 10px;
+    }
+
+    .creator-icon {
+        width: 60%;
+        top: -35%;
+    }
+
+    .creator-name {
+        padding: 2px 5px;
+    }
+
+    .youtube {
+        padding: 3px;
+    }
+
+    .creator-name img {
+        width: 100%;
+    }
+
+    .creator1,
+    .creator2 {
+        margin-bottom: 100px;
+    }
+
+    /* ニュース部分ここから */
+    .news-picture {
+        padding-right: 0;
+        padding-top: 7px;
+    }
+
+    .news-text {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    /* コンタクト部分ここから */
+    .contact-text h2 {
+        margin-bottom: 20px;
+    }
+}
